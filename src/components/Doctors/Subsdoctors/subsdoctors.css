@@ -1,0 +1,153 @@
+.form1{
+    position: relative;
+    height:630px;
+}
+
+.f-name,.s-name,.l-name,.sep,.s-sep,.nmbr,.gender,.titreprof,.num-prof,.ff-name{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border:1px solid #e9e9e9;
+    background: #ffffff;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 20px;
+    outline: none;
+  }
+.ff-name{
+    width: 357px;
+}
+
+.f-name{
+    position: relative;
+    left: 183px;
+    width: 212px;
+}
+#f-b{
+    position: relative;
+    left: 331px;
+}
+.s-name{
+    position: relative;
+    left: -73px;
+    width: 217px;
+    top: -103px;
+}
+#s-b{
+    position: relative;
+    left: 78px;
+    bottom: 105px;
+}
+
+.l-name{
+    position: relative;
+    left: -337px;
+    top:-206px;
+    width: 248px;
+}
+
+
+#l-b{
+    position: relative;
+    left: -171px;
+    bottom: 202px;
+}
+
+.gender{   width: 350px;
+    position: relative;
+    left: 186px;
+    top: -201px;}
+
+    #gender{
+        position: relative;
+        left: 344px;
+        top: -201px;
+    }
+
+.nmbr{
+    width: 357px;
+    position: relative;
+    left: -230px;
+    top: -302px;
+}
+#nmbr{
+    position: relative;
+    left: -85px;
+    top: -304px;
+}
+.sep{
+    width: 350px;
+    position: relative;
+    left: 186px;
+    top: -284px;}
+
+
+#sep{
+    position: relative;
+    left: 343px;
+    top: -290px;
+}
+
+.s-sep{
+    width: 357px;
+    position: relative;
+    left: -230px;
+    top: -386px;
+}
+
+#s-sep{
+    position: relative;
+    left: -101px;
+    top: -394px;
+}
+
+#placeh{
+    color:#e9e9e9;
+}
+
+.titreprof{width: 350px;
+    position: relative;
+    left: 186px;
+    top: -372px;}
+
+    #titreprof{
+        position: relative;
+        left: 331px;
+        top: -378px;
+    }
+
+    .num-prof{
+        width: 357px;
+        position: relative;
+        left: -230px;
+        top: -475px;
+
+    }
+
+    #num-prof{
+        position: relative;
+        left: -83px;
+        top: -482px;
+    }
+
+
+    .btn-doc{
+    margin: 15px auto;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #0957c3;
+    text-decoration: none;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    position: relative;
+    bottom:  451px;
+
+    }
