@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const card = (props) => {
     return (
-        <div className='con .card-doc '>
+        <div className='con  card-doc '>
         <div className='card-doc-widget'>
             <Link to={`/doctor/${props.doctorDetails.id}`}>
            <div className='card-doc-widget col1'>

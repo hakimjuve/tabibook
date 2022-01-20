@@ -111,7 +111,7 @@ const Doctors = () => {
     } 
   }
 }
->حجز</button> 
+>إشترك</button> 
 <div>
 
     </div>

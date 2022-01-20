@@ -12,9 +12,10 @@ return (
              <Search />
              </div>
     </div>
-             {/* show doctors */}
+             {/* show doctors */}  
+
     <div className='container'>
-   {docs.map(el => {return( <Card doctorDetails={el} />)})}
+              {docs.map(el => {return( <Card doctorDetails={el} />)})}
 
     </div>
              <Footer />
