@@ -17,7 +17,7 @@ const card = (props) => {
  
            </div>
            </Link>
-               <Link to='./IBooking' className='btn' style={{ textDecoration: 'none',color:'black'}}>احجز موعد</Link>
+           <Link to='./IBooking' className='btn' style={{ textDecoration: 'none',color:'black'}}>احجز موعد</Link>
 
 </div>
     </div>

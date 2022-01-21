@@ -6,9 +6,6 @@
   background-color: #f4f7fa;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   color: #424d62;
-  
-  
-
 
 }
 
@@ -20,17 +17,29 @@ header {
   background-color: #2B6CB0;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   box-shadow: 1px 1px rgb(226, 226, 226);
-
+  position: fixed;
+  z-index: 7;
+  top:0;
+  left:0;
+  right:0;
 
 }
 
-.cta Link {
-  text-decoration: none;}
+.h7 {
+  text-decoration: none;
+color:#0957c3;}
+
+.h7:hover {
+
+  color:rgb(226, 226, 226)
+}
 
 .logo {
   cursor: pointer;
-  width: 120px;
+  width: 65px;
   height: auto;
+  position: relative;
+  left: 51px;
   
 }
 
@@ -49,9 +58,7 @@ header {
   display: flex;
 }
 
-.cta{
-  color: #2B6CB0;
-}
+
 
 .nav__links li {
   padding: 0px 20px;
@@ -74,11 +81,15 @@ header {
   transition: background-color 0.3s ease 0s;
   text-decoration: none;
   color: #0957c3;
+  text-decoration: none;
+  
 
 }
 
 .cta:hover {
-  background-color: rgba(123, 216, 253, 0.8);
+  background-color: #2B6CB0;
+  border: solid 1px #ffffff;
+
 }
 
 
@@ -109,6 +120,7 @@ header {
 .con0{
   background-color: rgb(255, 255, 255);
   position: relative;
+  margin-top: 5%;
 }
 .search{
   position: absolute;
@@ -164,12 +176,12 @@ header {
 }
 .con1{
   position: relative;
-  margin-top: -43px;
-  height: 446px;
+  margin-top: 4%;
+  height: 60%;
 
 }
  .con1 img{
-  height: 489px;
+  height: 450px;
   width: auto;
   align-items: center;
   justify-content: center;
@@ -233,6 +245,7 @@ header {
   height: 150px;
   width: 150px;
   margin: 1%;
+  cursor: pointer;
 }
 
 
@@ -330,8 +343,10 @@ header {
   grid-gap: 5px;
 }
 
-.card-2 h1{
-  float: right
+.card-2 h1 {
+  float: right;
+ 
+  border: solid 1px #0957c3;
 }
 .h1 {
   background-color: #fafafa;
@@ -342,6 +357,11 @@ header {
   position: relative;
   text-align: center;
   color: white;
+   cursor: pointer;
+}
+
+.h1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .bottom-left {
   position: absolute;
@@ -379,7 +399,6 @@ header {
   justify-items: start;
   background-color: #28328c;
   color: #edf0f1;
-  flex-direction: column;
   padding-right: 138px;
   align-items: stretch
 }
@@ -422,10 +441,13 @@ padding-left: 15px;
 }
 
 
-.copryight {
+.copyright {
    align-items: center;
    padding-left: 200px;
-   background-color: #28328c;
+   color:rgb(255, 255, 255)c;    
+   position: relative;
+   right: 369px;
+    top: -8px;
 }
 
 .card-doc{
@@ -467,6 +489,10 @@ list-style: none;
   list-style: none;
   }
 
+  .col2{
+    margin-top: 5%;
+  }
+
 .profilepic{
   width: 130PX;
   height:130PX;
@@ -475,6 +501,10 @@ list-style: none;
   margin-right: 26px;
   margin-top: 26px;
 
+}
+
+.col3{
+  margin-top: 9%;
 }
 
 .name{
@@ -689,6 +719,7 @@ list-style: none;
 
 .form{
   display:grid;
+  margin-top: 5%;
   flex-direction: column;
 
 }
@@ -718,7 +749,7 @@ list-style: none;
 
 .bookingbtn{
   margin: 15px auto;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 500;
   border-radius: 10px;
   background-color: #0957c3;
@@ -732,7 +763,41 @@ list-style: none;
   transition: all 0.5s;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
+.bookingbtn1{
+  margin: 15px auto;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #f7d306;  text-decoration: none;
+  color: #272626;
+  outline: none;
+  border:none;
+  width: 150px;
+  height:50px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
 
 .join-us {
   font-size: 1.5em;
+}
+
+.sevices-sec{
+  margin-top: 5%;
+  height:410px;
+}
+
+
+.photo1{
+  position: relative;
+  z-index: 1;
+ left:2%;}
+
+
+.p1{
+  font-size: 1.5em;
+  text-align: justify;
+  line-height: 1.7;
+  
 }

@@ -1,6 +1,5 @@
-
 import Footer from '../footer'
-
+import { Link} from 'react-router-dom';
 function App() {
 
 
@@ -8,9 +7,9 @@ function App() {
     <>
     <div className="App1"> 
      <div className="container">
-      <div className='con'>
+      <div className='con col3'>
     <div className="title">
-           <span className='join-us'>إنضم إلينا</span>
+           <span className='join-us'>تسجيل الدخول</span>
           <br />
         <input type="text" className='ff-name' placeholder="  الإسم" name="name" maxlength="10" /> 
         <br />
@@ -19,6 +18,9 @@ function App() {
         <input type="text" className='ff-name' placeholder="  رقم الهاتف" name="name" maxlength="10" required /> 
         <br />
         <input type="text" className='ff-name' placeholder="  كلمة المرور" name="name" maxlength="10" required />
+        <br />
+        <a>           <Link to='./login' className='' style={{ textDecoration: 'none',color:'black'}}>لدي حساب</Link></a>
+        <br />
         <br />
         <button  className='botn'>تسجيل</button>
 

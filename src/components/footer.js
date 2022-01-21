@@ -16,7 +16,8 @@ return (
   <li><img src="../icons/facebook.png" alt="أيقونة فيس بوك" /></li>
   <li><img src="../icons/instagram.png" alt="أيقونة إنستجرام" /></li>
   <li><img src="../icons/youtube.png" alt="أيقونة إنستجرام" /></li>
-</ul> <p className='copyright'>سياسة الخصوصية الشروط والاستخدام<br />
+</ul>
+ <p className='copyright'>سياسة الخصوصية الشروط والاستخدام<br />
 جميع الحقوق محفوظة © طبيبك   2022</p>
 </div>
 <div className='footer copryight'>

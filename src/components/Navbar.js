@@ -8,7 +8,7 @@ const nav = () => {
   return (
     <div>
 <header className='sticky'>
-<img src='../logo.png'  alt='شعار طبيبك' className='logo' />
+<Link to='/'><img src='../logo.png'  alt='شعار طبيبك' className='logo' /></Link>
             <nav>
                 <ul className="nav__links">
                 <li>  <Link to='/'>الرئيسية</Link>  </li>
@@ -22,7 +22,7 @@ const nav = () => {
 
                 </ul>
             </nav>
-            <a className="cta" > <Link to='/Booking' style={{ textDecoration: 'none',color:'white'}}><h7>إنضم إلينا</h7></Link></a>
+            <a className="cta" > <Link to='/Booking' style={{ textDecoration: 'none'}}><h7 className='h7'>الدخول</h7></Link></a>
             
 </header>
 

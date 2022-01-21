@@ -3,6 +3,7 @@ import doctors from './Doctors/name-doctors';
 import Card from './Doctors/card';
 import Information from './Doctors/informationdoctors';
 import Footer from './footer'
+import { Link} from 'react-router-dom';
 
 const Doctor = () => {
   const { doctorId } = useParams();
@@ -29,8 +30,10 @@ const Doctor = () => {
 
                </ul>
  
-           </div>
+           </div>       
+
         </div>
+        <Link to='./IBooking' className='btn' style={{ textDecoration: 'none',color:'black'}}>احجز موعد</Link>
         <Footer />
 
       </div>
